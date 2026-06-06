@@ -1,0 +1,1 @@
+Developed a web-based Playfair Cipher application using HTML, CSS, and JavaScript. The tool generates a 5×5 key matrix from a user-defined keyword and performs encryption and decryption of plaintext using classical digraph substitution techniques. Features include automatic text preprocessing, matrix visualization, and real-time encryption/decryption results.
