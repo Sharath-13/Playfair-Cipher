@@ -141,6 +141,9 @@ function decryptMessage() {
     for (let i = 0; i < msg.length; i += 2) {
         result += decryptPair(matrix, msg[i], msg[i + 1]);
     }
+    if(result.endsWith("X")){
+        result = result.slice(0,-1);
+    }
 
     document.getElementById("output").innerText =
         "Decrypted: " + result;
